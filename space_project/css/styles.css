@@ -1,0 +1,182 @@
+body{
+  height: 100vh;
+  background-image: url(../assets/home/background-home-desktop.png);
+  background-size:cover;
+}
+.header{
+  /* width: 100%;
+  position: fixed; */
+  /* transform: translateZ(0);
+  -webkit-transform: translateZ(0); */
+}
+/* Line hr*/
+.line{
+  position: fixed;
+  left: 13%;
+  top: 8%;
+  /* background-color: white; */
+  /* opacity: 25%; */
+  z-index: 2;
+}
+hr{
+    width: 520px;
+    /* height: 2px !important; */
+    background-color: white;
+
+}
+h1{
+  font-family: 'Bellefair', serif;
+  color: #fff;
+  font-size: 9.375rem;
+}
+
+h4{
+  font-family: 'Bellefair', serif;
+  color: #0B0D17;
+  font-size: 2rem;
+  text-align: center;
+  padding: 112px 0;
+}
+
+h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #D0D6F9;
+  font-size: 1.75rem;
+  letter-spacing: 4.75px;
+}
+
+p{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #D0D6F9;
+  font-size: 1.125rem;
+  line-height: 32px;
+}
+
+.under-bar ul{
+  margin: 0px 120px 0 30px;
+}
+
+/* content box*/
+.under-bar {
+  width: 850px;
+  height: 85px;
+  position: absolute;
+  right: 0;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+.cointainer-script{
+  /* position: fixed; */
+}
+/* text */
+.nav-link{
+  color: white;
+  padding: 30px 15px 30px 15px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2.7px;
+  text-decoration: none;
+}
+
+/* Underline */
+.cointainer-fluid a{
+  margin-right: 30px;
+}
+
+.cointainer-fluid a:hover, .cointainer-fluid a:focus, .cointainer-fluid a:active{
+  border-bottom: 3px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.static a{
+  border-bottom: 3px solid #fff;
+}
+
+.dody-script{
+  width: 28%;
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+  text-align: justify;
+}
+
+/* Logo */
+.logo{
+  position: absolute;
+  top: 7%;
+  left: 5%;
+}
+/* Expore Button */
+.explore{
+  background-color: #fff;
+  position: absolute;
+  bottom: 20%;
+  right: 15%;
+  width: 15.625rem; /*250px*/
+  height: 15.625rem;
+  border-radius: 100%;
+}
+
+@media all and (max-width: 900px){
+  body{
+    height: 100vh;
+    background: url("../assets/home/background-home-tablet.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  h5{
+    font-size: 1.25rem;
+  }
+  p{
+      font-size: 1rem;
+      line-height: 28px;
+      text-align: center;
+      margin-top: -50px;
+  }
+  hr{
+    top: 100%;
+  }
+
+  .under-bar ul{
+    margin: 0px 120px 0 30px;
+    width: 600px;
+  }
+
+  .nav-item{
+    margin: 0;
+    padding: 0;
+  }
+
+  .under-bar{
+    width: 650px;
+    margin-top: 0;
+  }
+  .dody-script{
+    width: 50%; /*42%*/
+    position: absolute;
+    bottom: 35%;
+    left: 25%;
+    text-align: center;
+  }
+
+  .nav-link{
+    padding: 30px 8px 30px 8px;
+    font-size: 0.875rem;
+  }
+
+  .logo{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+  }
+
+  .explore{
+    right: 35%;
+    bottom: 1%;
+  }
+
+}
