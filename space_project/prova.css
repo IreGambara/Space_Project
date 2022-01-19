@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-div {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+}
+
+.sub-div {
+	background-color: aquamarine;
+	width: 50%;
+	height: auto;
+	flex-direction: column;
+}
+
+.subsub {
+	background-color: brown;
+	width: 30%;
+	height: 1rem;
+}
