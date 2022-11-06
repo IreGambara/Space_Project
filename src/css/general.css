@@ -1,4 +1,4 @@
-@use "./util/mixins" as mixin;
+/* @use "./util/mixins" as mixin; */
 body {
   margin: 0;
   padding: 0;
@@ -83,7 +83,11 @@ a {
 }
 
 .wrapper {
-  @include mixin.displayFlex(row, start, flex-end);
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-end;
+  /* @include mixin.displayFlex(row, start, flex-end); */
   animation: appearBottom 1s ease;
   z-index: 4;
 }

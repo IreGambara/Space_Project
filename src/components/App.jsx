@@ -7,7 +7,7 @@ import DestinationComponent from "./destination";
 import CrewComponent from "./crew";
 import TechComponent from "./technology";
 
-import "../scss/index.scss";
+import "../css/index.css";
 
 const AppComponent = () => {
   const URL =
